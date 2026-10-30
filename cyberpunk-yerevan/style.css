@@ -1,0 +1,14 @@
+:root{--bg:#0a0a12;--fg:#d6e6ff;--accent:#00f0c8;--pink:#ff2e88;--dim:#6b7a99}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:18px/1.6 system-ui,sans-serif}
+main{max-width:720px;margin:0 auto;padding:1.5rem}
+h1{color:var(--accent);letter-spacing:.2em;margin:0;text-shadow:0 0 12px var(--accent)}
+header{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;border-bottom:1px solid var(--dim);padding-bottom:.5rem}
+#stats{font-size:.8rem;color:var(--dim)}
+#scene{margin:1.5rem 0;white-space:pre-wrap}
+.speaker{color:var(--pink);font-weight:bold}
+button{display:block;width:100%;margin:.5rem 0;padding:.7rem 1rem;text-align:left;background:transparent;color:var(--fg);border:1px solid var(--accent);border-radius:4px;font:inherit;cursor:pointer}
+button:hover{background:rgba(0,240,200,.12)}
+#hack{background:#000;border:1px solid var(--accent);padding:1rem;font-family:monospace;margin-bottom:1rem}
+#hack input{background:#000;color:var(--accent);border:1px solid var(--accent);font:inherit;padding:.3rem;width:8ch}
+#hack .log{white-space:pre-wrap;color:var(--accent)}
